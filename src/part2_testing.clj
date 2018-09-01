@@ -1,6 +1,8 @@
+(ns part2-testing)
+
 ;; setup
-(require '[clojure.spec :as s]
-         '[clojure.spec.test :as test])
+(require '[clojure.spec.alpha :as s]
+         '[clojure.spec.test.alpha :as test])
 
 ;; fn under test
 (defn my-index-of

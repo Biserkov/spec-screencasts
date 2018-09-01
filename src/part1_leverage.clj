@@ -1,6 +1,8 @@
+(ns part1-leverage)
+
 ;; user setup
-(require '[clojure.spec :as s]
-         '[clojure.spec.test :as test])
+(require '[clojure.spec.alpha :as s]
+         '[clojure.spec.test.alpha :as test])
 
 ;; example fn
 (defn my-index-of
